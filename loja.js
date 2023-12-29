@@ -2,7 +2,7 @@ const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 
 // Configuração do Sequelize para o banco de dados MySQL
-const sequelize = new Sequelize('test', 'root', 'root', {
+const sequelize = new Sequelize('test', 'alex', 'root', {
   host: 'localhost',
   dialect: 'mysql',
 });
