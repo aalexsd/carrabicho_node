@@ -1,0 +1,9 @@
+{
+  "name": "loja.js",
+  "version": "1.0.0",
+  "main": "loja.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
