@@ -74,10 +74,10 @@ const User = sequelize.define('User', {
 });
 
 
-// // Sincronize o modelo com o banco de dados (isso criará a tabela se ainda não existir)
-// sequelize.sync().then(() => {
-//   console.log('Banco de dados sincronizado');
-// });
+// Sincronize o modelo com o banco de dados (isso criará a tabela se ainda não existir)
+sequelize.sync().then(() => {
+  console.log('Banco de dados sincronizado');
+});
 
 const app = express();
 const PORT = process.env.PORT || 8081;
