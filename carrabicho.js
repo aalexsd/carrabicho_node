@@ -3,7 +3,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 
 // Configuração do Sequelize para o banco de dados MySQL
-const sequelize = new Sequelize('carrabicho', 'root', 'root', {
+const sequelize = new Sequelize('carrabicho', 'alex', 'root', {
   host: 'localhost',
   dialect: 'mysql',
 });
