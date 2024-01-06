@@ -1,7 +1,7 @@
 {
-  "name": "loja.js",
+  "name": "carrabicho.js",
   "version": "1.0.0",
-  "main": "loja.js",
+  "main": "carrabicho.js",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.1",

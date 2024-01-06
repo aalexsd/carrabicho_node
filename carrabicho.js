@@ -1,7 +1,6 @@
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
-const fs = require('fs');
 
 // Configuração do Sequelize para o banco de dados MySQL
 const sequelize = new Sequelize('carrabicho', 'root', 'root', {
