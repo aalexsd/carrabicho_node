@@ -4,6 +4,7 @@
   "main": "loja.js",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.18.2"
   }
 }
